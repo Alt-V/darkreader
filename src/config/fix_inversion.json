@@ -118,6 +118,13 @@
         {
             "url": "io9.com",
             "rules": "html { height: auto !important; }"
+        }
+        {
+            "url": "lichess.org",
+            "invert": [
+                ".cg-board, .x-button",
+                "#player .player-button"
+                      ]
         },
         {
             "url": "lifehacker.com",
